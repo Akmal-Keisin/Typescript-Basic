@@ -20,7 +20,7 @@ describe("Opsional Properties", function() {
       console.info(person2);
    });
 
-   it("should be null and undefined", function() {
+   it("optional parameter", function() {
       const sayHello = (name?: string | null) => {
          if(name) {
             console.info(`Hello ${name}`);
